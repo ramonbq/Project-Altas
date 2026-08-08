@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17233a">
+  <meta name="description" content="Project Atlas: a private, local-first notes, tasks, accomplishments, and reporting workspace.">
+  <title>Project Atlas</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/styles.css?v=0.1.2">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="app" class="app-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <img src="./assets/icon-192.png" alt="" class="brand-logo">
+        <div class="brand-copy">
+          <strong>PROJECT ATLAS</strong>
+          <span>Administrative Command Center</span>
+        </div>
+        <button id="sidebar-close" class="icon-button sidebar-close" type="button" aria-label="Close navigation"></button>
+      </div>
+      <nav id="primary-nav" class="primary-nav"></nav>
+      <button id="global-quick-capture" class="sidebar-primary-button" type="button"></button>
+      <div class="sidebar-footer">
+        <button id="sidebar-collapse" class="sidebar-footer-button" type="button"></button>
+      </div>
+    </aside>
+
+    <div id="sidebar-backdrop" class="sidebar-backdrop" hidden></div>
+
+    <main id="main-content" class="main-content" tabindex="-1">
+      <header class="topbar">
+        <button id="sidebar-open" class="icon-button mobile-menu-button" type="button" aria-label="Open navigation"></button>
+        <div class="topbar-title-wrap">
+          <h1 id="view-title" class="topbar-title">Dashboard</h1>
+          <p id="view-subtitle" class="topbar-subtitle">Your notes, tasks, and accomplishments in one place.</p>
+        </div>
+        <label class="global-search" for="global-search-input">
+          <span id="global-search-icon"></span>
+          <input id="global-search-input" type="search" autocomplete="off" placeholder="Search notes, tasks, projects..." aria-label="Search Atlas">
+          <kbd>Ctrl K</kbd>
+        </label>
+        <div class="topbar-actions">
+          <button id="install-app-button" class="button button-secondary install-button" type="button" hidden></button>
+          <button id="theme-toggle" class="icon-button" type="button" aria-label="Change color theme"></button>
+          <button id="help-button" class="icon-button" type="button" aria-label="Open help"></button>
+          <button id="quick-add-button" class="button button-primary topbar-quick-button" type="button"></button>
+        </div>
+      </header>
+
+      <div id="view-container" class="view-container" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript-message">Project Atlas requires JavaScript to run.</div>
+  </noscript>
+  <script type="module" src="./js/app.js?v=0.1.2"></script>
+</body>
+</html>
