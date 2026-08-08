@@ -1,4 +1,4 @@
-# Project Atlas 0.1.2 — Privacy and Data Notes
+# Project Atlas 0.1.3 — Privacy and Data Notes
 
 Atlas is a local-first prototype. Live records are stored in the browser's IndexedDB database on the device and browser profile where the app is used.
 
@@ -12,7 +12,7 @@ The browser can store notes, tasks, accomplishments, workstreams, tags, preferen
 
 ## No automatic synchronization
 
-Atlas 0.1.2 does not automatically synchronize records between computers, phones, tablets, or browsers. Each browser has a separate database. A JSON backup can be imported on another device, but importing replaces that device's current Atlas data.
+Atlas 0.1.3 does not automatically synchronize records between computers, phones, tablets, or browsers. Each browser has a separate database. A JSON backup can be imported on another device, but importing replaces that device's current Atlas data.
 
 ## OCR
 
@@ -20,4 +20,4 @@ The optional OCR feature loads Tesseract.js and English language data from the j
 
 ## Sensitive information
 
-Atlas 0.1.2 is a prototype and does not provide centralized authentication, remote wipe, server-side audit logging, formal retention controls, or built-in encrypted cloud synchronization. Avoid storing credentials, regulated data, highly sensitive personal data, or other confidential information unless you have evaluated the risks and have an appropriate security plan.
+Atlas 0.1.3 is a prototype and does not provide centralized authentication, remote wipe, server-side audit logging, formal retention controls, or built-in encrypted cloud synchronization. Avoid storing credentials, regulated data, highly sensitive personal data, or other confidential information unless you have evaluated the risks and have an appropriate security plan.

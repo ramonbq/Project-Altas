@@ -1,7 +1,7 @@
 {
   "name": "Project Atlas",
   "short_name": "Atlas",
-  "description": "A local-first workspace for tasks, notes, decisions, accomplishments, and reports.",
+  "description": "Work intelligence and organization for tasks, notes, decisions, accomplishments, diagnostics, and reports.",
   "id": "./",
   "start_url": "./",
   "scope": "./",

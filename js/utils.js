@@ -266,7 +266,7 @@ export function truncate(value = '', length = 120) {
 export function taskImpactSuggestion(task) {
   const base = task?.title?.trim() || 'Completed assigned work';
   const workstream = task?.workstreamName ? ` for ${task.workstreamName}` : '';
-  return `${base}${workstream}, supporting timely follow-through and organized delivery of administrative work.`;
+  return `${base}${workstream}, supporting timely follow-through and organized delivery of work.`;
 }
 
 export function printDocument(title, bodyHTML) {

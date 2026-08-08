@@ -11,7 +11,7 @@ import {
   printDocument, wordCompatibleHTML
 } from './utils.js';
 
-const APP_VERSION = '0.1.2';
+const APP_VERSION = '0.1.3';
 const SETTINGS_KEY = 'preferences';
 const WORKSTREAM_COLORS = ['#9b7652', '#9466d8', '#3da85b', '#2d9baa', '#ed8b16', '#5372d4', '#d05272', '#65758b'];
 
@@ -24,7 +24,7 @@ const DEFAULT_SETTINGS = {
   workstreams: [
     { id: 'ws-projects', name: 'Projects', color: '#9b7652' },
     { id: 'ws-operations', name: 'Operations', color: '#9466d8' },
-    { id: 'ws-admin', name: 'Administration', color: '#3da85b' },
+    { id: 'ws-general', name: 'General', color: '#3da85b' },
     { id: 'ws-team', name: 'Team Support', color: '#2d9baa' },
     { id: 'ws-planning', name: 'Planning', color: '#ed8b16' },
     { id: 'ws-development', name: 'Professional Development', color: '#5372d4' }
@@ -2198,7 +2198,7 @@ async function loadSampleData() {
     { id: noteTeam, title: 'Quarterly Meeting Planning', body: 'Possible agenda sections:\n- Team update\n- Product demonstration\n- Operations reminders\n\nConfirm presenters and final timing.', type: 'note', workstreamId: 'ws-team', tags: ['Meeting','Presentation'], sourceLink: '', shareable: true, createdAt: now, updatedAt: now },
     { id: noteOps, title: 'Operations Process Ideas', body: 'Workspace requests, equipment tracking, recurring maintenance, and team moves all benefit from clear ownership, status, source links, and follow-up dates.', type: 'note', workstreamId: 'ws-operations', tags: ['Process Improvement'], sourceLink: '', shareable: false, createdAt: now, updatedAt: now },
     { id: noteDecision, title: 'Decision: Atlas stays local-first', body: 'The first release will prove the notes → tasks → accomplishments → reports workflow before adding complex integrations or hosted synchronization.', type: 'decision', workstreamId: 'ws-projects', tags: ['Planning','Project Atlas'], sourceLink: '', shareable: true, createdAt: now, updatedAt: now },
-    { id: uuid(), title: 'Administrative Resources', body: 'Save links to frequently used procedures, templates, forms, and reference pages here.', type: 'reference', workstreamId: '', tags: ['Reference'], sourceLink: '', shareable: true, createdAt: now, updatedAt: now }
+    { id: uuid(), title: 'Reference Library', body: 'Save links to frequently used procedures, templates, forms, and reference pages here.', type: 'reference', workstreamId: '', tags: ['Reference'], sourceLink: '', shareable: true, createdAt: now, updatedAt: now }
   ];
   const accomplishments = [
     { id: uuid(), title: 'Published project status update', impact: 'Improved visibility into active work and made current information easier for collaborators to locate.', results: 'Milestones and ownership were reviewed and updated.', workstreamId: 'ws-projects', goal: 'Operational Excellence', skills: ['Documentation','Planning'], evidenceLink: '', relatedTaskId: '', completedAt: addDays(todayISO(), -3), createdAt: now, updatedAt: now },

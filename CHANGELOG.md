@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.3 — 2026-08-07
+
+- Changed the Atlas brand subtitle to **Work Intelligence & Organization**.
+- Removed the remaining visible administrative-work terminology from the personal build.
+- Replaced the default Administration workstream with a generic General workstream.
+- Replaced the Administrative Resources sample with a generic Reference Library sample.
+- Updated the app metadata and PWA cache version so GitHub Pages and installed copies fetch the new branding.
+- Adjusted the sidebar subtitle styling so the full tagline can wrap on narrow/mobile layouts instead of being cut off.
+
 ## 0.1.2
 
 - Generalized Atlas for personal/commercial development.

@@ -1,9 +1,9 @@
-const CACHE_NAME = 'project-atlas-v0.1.2';
+const CACHE_NAME = 'project-atlas-v0.1.3';
 const APP_SHELL = [
   './',
   './index.html',
-  './css/styles.css?v=0.1.2',
-  './js/app.js?v=0.1.2',
+  './css/styles.css?v=0.1.3',
+  './js/app.js?v=0.1.3',
   './js/db.js',
   './js/icons.js',
   './js/utils.js',
