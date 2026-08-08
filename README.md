@@ -1,8 +1,8 @@
-# Project Atlas 0.1.3
+# Project Atlas 0.1.4
 
 Project Atlas is a local-first progressive web app (PWA) for organizing work. It connects tasks, notes, decisions, workstreams, accomplishments, and reports in one private workspace.
 
-Atlas 0.1.3 is a static PWA that can be published with GitHub Pages. It does not require Node.js, a server, a paid database, or a build process.
+Atlas 0.1.4 is a static PWA that can be published with GitHub Pages. It does not require Node.js, a server, a paid database, or a build process.
 
 ## What is included
 
@@ -64,7 +64,7 @@ Then open `http://localhost:8000` in a modern browser.
 
 Atlas loads Tesseract.js only when **Run OCR** is selected. OCR accepts image files up to 12 MB and saves the compressed image with the resulting note. Printed text, screenshots, and clear signage will generally work better than handwriting. Review every OCR result against the original image.
 
-Atlas 0.1.3 does not OCR PDF files. It also does not send extracted text into an AI system.
+Atlas 0.1.4 does not OCR PDF files. It also does not send extracted text into an AI system.
 
 ## Updating Atlas
 
@@ -74,7 +74,7 @@ Back up your data before updating. Publishing new code should not normally erase
 
 ## Prototype boundaries
 
-Atlas 0.1.3 does not include:
+Atlas 0.1.4 does not include:
 
 - Central user accounts or permissions
 - Automatic device synchronization

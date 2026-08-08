@@ -106,7 +106,7 @@ git push -u origin main
 - Try a clear image containing printed English text.
 
 ### Records are missing on another device
-That is expected in Atlas 0.1.3. Export a JSON backup on the original device and import it on the other device. Import replaces any existing Atlas records in the destination browser.
+That is expected in Atlas 0.1.4. Export a JSON backup on the original device and import it on the other device. Import replaces any existing Atlas records in the destination browser.
 
 ## References
 

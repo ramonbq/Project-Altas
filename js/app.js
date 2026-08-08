@@ -11,7 +11,7 @@ import {
   printDocument, wordCompatibleHTML
 } from './utils.js';
 
-const APP_VERSION = '0.1.3';
+const APP_VERSION = '0.1.4';
 const SETTINGS_KEY = 'preferences';
 const WORKSTREAM_COLORS = ['#9b7652', '#9466d8', '#3da85b', '#2d9baa', '#ed8b16', '#5372d4', '#d05272', '#65758b'];
 

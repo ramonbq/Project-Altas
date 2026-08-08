@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4 — 2026-08-07
+
+- Fixed desktop Chrome clipping the final **S** in **PROJECT ATLAS** at standard zoom.
+- Slightly widened the desktop sidebar and allowed the brand text container to render without clipping.
+- Reduced brand letter spacing very slightly for more consistent rendering across browsers and display scaling.
+- Bumped the PWA cache version so browsers fetch the corrected stylesheet.
+
 ## 0.1.3 — 2026-08-07
 
 - Changed the Atlas brand subtitle to **Work Intelligence & Organization**.
