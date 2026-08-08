@@ -121,8 +121,18 @@ img { max-width: 100%; }
   position: relative;
 }
 .brand-logo { width: 44px; height: 44px; border-radius: 12px; flex: 0 0 auto; }
-.brand-copy { display: flex; flex-direction: column; min-width: 0; white-space: nowrap; overflow: hidden; }
-.brand-copy strong { font-size: 16px; letter-spacing: 0.025em; }
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+  overflow: visible;
+}
+.brand-copy strong {
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+}
 .brand-copy span { margin-top: 2px; color: var(--sidebar-muted); font-size: 10px; line-height: 1.25; white-space: normal; }
 .sidebar.is-collapsed .brand { justify-content: center; padding-inline: 12px; }
 .sidebar.is-collapsed .brand-copy,
